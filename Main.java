@@ -37,7 +37,7 @@ public class Main {
                 String name = scanner.nextLine();
                 playerStats.recordName(name);
             } else if (choice == 7) {
-                playerStats.generateAndDisplayJerseyNumber();  // Display Jersey Number
+                playerStats.JerseyNumber();  // Display Jersey Number
             } else {
                 System.out.println("Invalid choice. Please enter a valid option.");
             }
