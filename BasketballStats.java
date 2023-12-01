@@ -40,13 +40,6 @@ public class BasketballStats {
         System.out.println("\n" + this.toString());
     }
 
-    public void rerankStats() {
-        int[] statsArray = {points, rebounds, assists};
-        Arrays.sort(statsArray);
-        points = statsArray[0];
-        rebounds = statsArray[1];
-        assists = statsArray[2];
-  }
     public String toString(){
         String point1 = "Points:" + points + "\n";
         String rebound1 = "Rebounds:" + rebounds + "\n";
