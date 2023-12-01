@@ -48,7 +48,7 @@ public class BasketballStats {
         return point1 + rebound1 + assist1 + name1;
     }
 
-    public void generateAndDisplayJerseyNumber() {
+    public void JerseyNumber() {
         int jerseyNumber = (int) (Math.random() * 100 + 1);  
         System.out.println("Randomly generated jersey number: " + jerseyNumber);
         String jerseyStr = String.valueOf(jerseyNumber);
